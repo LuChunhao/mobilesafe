@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="#aa009600"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:text="我是主界面"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <com.myproject.mobilesafe.view.MyLoopTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/background_light"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:focusableInTouchMode="true"
+        android:singleLine="true"
+        android:textSize="14sp"
+        android:text="@string/hello"
+        android:textColor="#99000000" />
+
+    <GridView
+        android:id="@+id/gv_item_name"
+        android:background="@android:color/background_light"
+        android:numColumns="3"
+        android:layout_marginTop="10dp"
+        android:verticalSpacing="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </GridView>
+
+</LinearLayout>

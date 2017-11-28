@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">手机安全卫士</string>
+    <string name="hello">欢迎您：我是您的手机助手！111111111222222222222</string>
+     <string name="checkupdate_url">http://192.168.254.2:8080/mobilesafe/updateinfo.json</string>
+     <string name="sample_device_admin_description">打勾，开启生效</string>
+     <string name="sample_device_admin">锁屏</string>
+</resources>

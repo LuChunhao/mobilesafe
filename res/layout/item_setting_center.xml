@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rv_setting"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/tv_setting_center_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:layout_marginLeft="3dp"
+        android:text="设置中心的标题"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_setting_center_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_setting_center_title"
+        android:layout_marginLeft="3dp"
+        android:text="设置中心的描述"
+        android:textSize="14sp" />
+
+    <CheckBox
+        android:id="@+id/cb_isSettingChecked"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="5dp"
+        android:clickable="false"
+        android:focusable="false" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/tv_setting_center_desc"
+        android:background="@drawable/list_devider" />
+
+</RelativeLayout>

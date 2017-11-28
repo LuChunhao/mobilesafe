@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/tv_item_appmanage_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        android:text="用户程序：25个"
+        android:visibility="gone"
+        android:textColor="@android:color/white" />
+
+    <ImageView
+        android:id="@+id/iv_appmanage_icon"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_item_appmanage_desc"
+        android:background="@drawable/app" />
+
+    <TextView
+        android:id="@+id/tv_item_appname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/tv_item_appmanage_desc"
+        android:layout_toRightOf="@+id/iv_appmanage_icon"
+        android:text="应用程序名称"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    
+    <TextView
+        android:id="@+id/tv_item_appsize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tv_item_appname"
+        android:layout_alignParentRight="true"
+        android:text="app大小"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tv_item_issysapp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_item_appname"
+        android:layout_below="@+id/tv_item_appname"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="手机内存"
+        android:textSize="12sp" />
+
+</RelativeLayout>
